@@ -1,27 +1,20 @@
 # Climate & Mental Health: Unsupervised Pattern Discovery
 This project uses unsupervised machine learning to explore how climate variables—**humidity (`q`)**, **temperature (`t2m`)**, and **UV radiation (`uvbed`, `uvbedcs`)**—may be linked to mental health cases. The goal is to uncover interpretable patterns and potential climate thresholds that can support early warning systems and inform policy decisions.
-![feature_importance](https://github.com/user-attachments/assets/c6777132-cc91-469e-8066-559b3baa23e3)
-![dependency_plots](https://github.com/user-attachments/assets/42952aad-0eb5-4076-8c8b-9398431a8325)
-![dependency_density_plot](https://github.com/user-attachments/assets/d3463516-7c86-469f-9766-a434ff43a2a4)
 
 
-```markdown
-## Key Features Overview
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c6777132-cc91-469e-8066-559b3baa23e3" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/42952aad-0eb5-4076-8c8b-9398431a8325" alt="dependency_plots"></td>
+    <td><img src="https://github.com/user-attachments/assets/d3463516-7c86-469f-9766-a434ff43a2a4" alt="dependency_density_plot"></td>
+  </tr>
+  <tr>
+    <td>Feature Importance</td>
+    <td>Dependency Plots</td>
+    <td>Dependency Density Plot</td>
+  </tr>
+</table>
 
-| **Temporal Engineering** | **Clustering & Profiling** | **Modeling & Interpretation** |
-|--------------------------|-----------------------------|-------------------------------|
-| Defines warm months as summer for seasonality analysis. | Uses Spectral Clustering + K-Means to identify mental health patterns linked to climate. | Builds XGBoost model and interprets with SHAP values and decision trees. |
-| Filters dataset to focus solely on mental health events. | Profiles clusters and demographic subclusters. | Extracts IF...THEN rules from decision tree for transparency. |
-| Removes missing values to ensure model readiness. | Computes cluster-wise climate stats for policy insight. | Identifies climate thresholds using SHAP dependency plots. |
-
----
-
-## Visualizations
-
-| ![feature_importance](https://github.com/user-attachments/assets/c6777132-cc91-469e-8066-559b3baa23e3) | ![dependency_plots](https://github.com/user-attachments/assets/42952aad-0eb5-4076-8c8b-9398431a8325) | ![dependency_density_plot](https://github.com/user-attachments/assets/d3463516-7c86-469f-9766-a434ff43a2a4) |
-|:--:|:--:|:--:|
-| *Feature Importance* | *SHAP Dependency Plots* | *Density Plot of SHAP Thresholds* |
-```
 
 ## Key Features
 - **Temporal Feature Engineering**  
