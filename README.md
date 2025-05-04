@@ -24,33 +24,16 @@ To interpret model predictions, we used SHAP (SHapley Additive exPlanations), wh
     <td><img src="https://github.com/user-attachments/assets/a854e8b7-ab58-42bc-85f9-630f31a28075" alt="dependency_plots"></td>
     <td><img src="https://github.com/user-attachments/assets/57f49bbb-567c-484b-ae75-506f93875a17" alt="dependency_density_plot"></td>
   </tr>
-  <tr>
-    <td>Feature Importance</td>
-    <td>Dependency Plots</td>
-    <td>Dependency Density Plot</td>
-  </tr>
 </table>
 
-Identifying Climate Thresholds with SHAP
+## Identifying Climate Thresholds with SHAP
 To pinpoint specific climate conditions linked to strong model predictions, we focused on the top 5% of SHAP values (above the 95th percentile) for each feature. We extracted the corresponding climate input values and calculated their min, max, and mean, as well as the mean SHAP value. This analysis identifies critical thresholds where climate features have disproportionate influence, offering practical insight into which environmental conditions most strongly affect mental health outcomes.
-Visualizing SHAP and Climate Impacts
-Heatmap of SHAP Impact Values by Category: We created a heatmap by pivoting SHAP summary values into a category-feature matrix (with renamed variables for clarity). This visual highlights how each climate feature impacts each mental health category, providing an intuitive comparison across outcomes.
-Heatmap of Mean Climate Values by Category: We also visualized the average values of humidity, temperature, and UV for each mental health category. These heatmaps show the typical climate conditions associated with different mental health incidents based on the EMAS dataset and our model predictions.
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/8a304519-5ced-4d6a-82fc-e76a1f7544da" alt="feature_importance"></td>
-    <td><img src="https://github.com/user-attachments/assets/8db2bcdf-a4b8-4907-a2ee-f2826e5636b7" alt="dependency_plots"></td>
-    <td><img src="https://github.com/user-attachments/assets/9f511cac-a2d8-4fb4-9fb4-f74f907eb4c9" alt="dependency_density_plot"></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/6dfd7e80-cf91-4865-a777-a3f9d74cfdf8" alt="feature_importance"></td>
-    <td><img src="https://github.com/user-attachments/assets/a854e8b7-ab58-42bc-85f9-630f31a28075" alt="dependency_plots"></td>
-    <td><img src="https://github.com/user-attachments/assets/57f49bbb-567c-484b-ae75-506f93875a17" alt="dependency_density_plot"></td>
-  </tr>
-  <tr>
-    <td>Feature Importance</td>
-    <td>Dependency Plots</td>
-    <td>Dependency Density Plot</td>
-  </tr>
-</table>
+### Visualising SHAP and Climate Impacts
+**Heatmap of SHAP Impact Values by Category:** We created a heatmap by pivoting SHAP summary values into a category-feature matrix (with renamed variables for clarity). This visual highlights how each climate feature impacts each mental health category, providing an intuitive comparison across outcomes.
+
+![shap_heatmap_combined](https://github.com/user-attachments/assets/0eeb2c41-f50f-4767-be84-7f161061ed81)
+
+**Heatmap of Mean Climate Values by Category:** We also visualized the average values of humidity, temperature, and UV for each mental health category. These heatmaps show the typical climate conditions associated with different mental health incidents based on the EMAS dataset and our model predictions.
+
+![mean_value_heatmaps](https://github.com/user-attachments/assets/9c270d1e-df8b-47d8-a1cf-8f8722da90cd)
