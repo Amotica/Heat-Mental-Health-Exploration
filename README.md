@@ -13,8 +13,23 @@ To address this, we adopted a supervised learning strategy to investigate how in
 ## Feature Importance with SHAP
 To interpret model predictions, we used SHAP (SHapley Additive exPlanations), which provides fair and consistent feature attribution, unlike XGBoost’s built-in feature importance metrics. SHAP explains both global trends and individual predictions by assigning impact scores to each feature. For each mental health category, we applied SHAP’s TreeExplainer to our trained models and computed the mean absolute SHAP values. These were visualised using bar plots to reveal which climate features — such as temperature, humidity, or UV — were most influential in each category.
 
-
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8a304519-5ced-4d6a-82fc-e76a1f7544da" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/8db2bcdf-a4b8-4907-a2ee-f2826e5636b7" alt="dependency_plots"></td>
+    <td><img src="https://github.com/user-attachments/assets/9f511cac-a2d8-4fb4-9fb4-f74f907eb4c9" alt="dependency_density_plot"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6dfd7e80-cf91-4865-a777-a3f9d74cfdf8" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/a854e8b7-ab58-42bc-85f9-630f31a28075" alt="dependency_plots"></td>
+    <td><img src="https://github.com/user-attachments/assets/57f49bbb-567c-484b-ae75-506f93875a17" alt="dependency_density_plot"></td>
+  </tr>
+  <tr>
+    <td>Feature Importance</td>
+    <td>Dependency Plots</td>
+    <td>Dependency Density Plot</td>
+  </tr>
+</table>
 
 Identifying Climate Thresholds with SHAP
 To pinpoint specific climate conditions linked to strong model predictions, we focused on the top 5% of SHAP values (above the 95th percentile) for each feature. We extracted the corresponding climate input values and calculated their min, max, and mean, as well as the mean SHAP value. This analysis identifies critical thresholds where climate features have disproportionate influence, offering practical insight into which environmental conditions most strongly affect mental health outcomes.
