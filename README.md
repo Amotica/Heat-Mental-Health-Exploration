@@ -13,8 +13,8 @@ For clustering, we excluded the primary clinical impression field to treat all m
     <td><img src="https://github.com/user-attachments/assets/b45b4f6f-745d-4f51-aadf-0ed12806dc3f" alt="dependency_plots"></td>
   </tr>
   <tr>
-    <td>Summer Season (see `explore_unsupervised_learning_summer.ipynb`) </td>
-    <td>Spring and Summer Seasons (see `explore_unsupervised_learning_spring_summer.ipynb`) </td>
+    <td>**Summer Season** (see explore_unsupervised_learning_summer.ipynb) </td>
+    <td>**Spring and Summer Seasons** (see explore_unsupervised_learning_spring_summer.ipynb) </td>
   </tr>
 </table>
 
