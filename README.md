@@ -9,7 +9,7 @@ For clustering, we excluded the primary clinical impression field to treat all m
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/b888cdec-c6ce-4025-93f6-259d50b40c35)" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/b888cdec-c6ce-4025-93f6-259d50b40c35" alt="feature_importance"></td>
     <td><img src="" alt="dependency_plots"></td>
   </tr>
 </table>
