@@ -29,6 +29,11 @@ Heatmap of Mean Climate Values by Category: We also visualized the average value
     <td><img src="https://github.com/user-attachments/assets/9f511cac-a2d8-4fb4-9fb4-f74f907eb4c9" alt="dependency_density_plot"></td>
   </tr>
   <tr>
+    <td><img src="https://github.com/user-attachments/assets/6dfd7e80-cf91-4865-a777-a3f9d74cfdf8" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/a854e8b7-ab58-42bc-85f9-630f31a28075" alt="dependency_plots"></td>
+    <td><img src="https://github.com/user-attachments/assets/57f49bbb-567c-484b-ae75-506f93875a17" alt="dependency_density_plot"></td>
+  </tr>
+  <tr>
     <td>Feature Importance</td>
     <td>Dependency Plots</td>
     <td>Dependency Density Plot</td>
