@@ -7,6 +7,13 @@ We began with an unsupervised learning approach to explore whether mental health
 
 For clustering, we excluded the primary clinical impression field to treat all mental health cases as a single group. After removing missing values, we applied Spectral Clustering with K-Means affinity. Clusters were analyzed using mean, min, and max feature values. Results showed that high values in temperature, humidity, and UV often coincided with distinct clusters of mental health incidents. However, overlapping ranges across clusters suggested that interactions between climate variables — not single features alone — help differentiate case patterns. The presence of large clusters also indicated the possibility of common climate conditions driving many mental health cases. Yet, without category-specific labels, we could not identify which mental health types were associated with which climate drivers.
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/b888cdec-c6ce-4025-93f6-259d50b40c35)" alt="feature_importance"></td>
+    <td><img src="" alt="dependency_plots"></td>
+  </tr>
+</table>
+
 
 To address this, we adopted a supervised learning strategy to investigate how individual mental health categories respond to climate factors. Recognising the class imbalance and overlap found in the unsupervised analysis, we used a binary classification (One-vs-Rest) framework for each category. SMOTE (Synthetic Minority Over-sampling Technique) was used to generate synthetic samples for the minority class, addressing the imbalance problem. We trained an XGBClassifier per category using stratified train-test splits (80/20) and stored the models generated during training for evaluation and future prediction.
 
