@@ -1,5 +1,5 @@
 # Exploring Climate Effects on Mental Health Using Supervised Machine Learning and Explainable AI
-This project uses Explainable AI alongside unsupervised and supervised machine learning techniques to explore how climate variables — specifically humidity (q), temperature (t2m), and UV radiation — may be linked to mental health outcomes. The goal is to uncover interpretable patterns and potential climate thresholds that can inform early warning systems and support public health policy.
+This project uses Explainable AI alongside unsupervised and supervised machine learning techniques to explore how climate variables, specifically humidity (q), temperature (t2m), and UV radiation, may be linked to mental health outcomes. The goal is to uncover interpretable patterns and potential climate thresholds that can inform early warning systems and support public health policy.
 
 ![mean_value_heatmaps](https://github.com/user-attachments/assets/fac259ba-8c1e-4fdd-b268-ea404f703477)
 
