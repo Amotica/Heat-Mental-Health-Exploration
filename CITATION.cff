@@ -1,0 +1,54 @@
+cff-version: 1.1.0-alpha
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: John
+  given-names: Atanbori
+orcid: https://orcid.org/0000-0003-2307-2720
+title: Exploring Climate Effects (Heat) on Mental Health Using Machine Learning and Explainable AI
+version: v1.0.0-alpha
+date-released: 2025-05-09
+
+
+cff-version: 1.1.0-alpha
+message: "If you use this software, or anything contain on the GitHub page please cite it as below."
+title: Exploring Climate Effects (Heat) on Mental Health Using Machine Learning and Explainable AI
+version: v1.0.0-alpha
+date-released: 2025-05-09
+
+authors:
+  - family-names: John
+    given-names: Atanbori
+    orcid: https://orcid.org/0000-0003-2307-2720
+    affiliation: University of Lincoln, School of Engineering and Physical Sciences, Brayford Way, Brayford Pool, Lincoln, LN6 7TS, United Kingdom
+  - family-names: Moore
+    given-names: Harriet
+    orcid: https://orcid.org/0000-0003-1941-6471
+    affiliation: University of Lincoln, Lincoln Institute for Rural and Coastal Health, Brayford Way, Brayford Pool, Lincoln, LN6 7TS, United Kingdom
+
+doi: https://doi.org/10.5281/zenodo.15373652  
+repository-code: https://github.com/Amotica/Heat-Mental-Health-Exploration
+url: https://github.com/Amotica/Heat-Mental-Health-Exploration
+
+abstract: >
+  This project applies Explainable AI with unsupervised and supervised machine learning 
+  to investigate how climate variables—humidity, temperature, and UV radiation—relate to 
+  mental health outcomes. Using EMAS data from spring and summer in the UK, clustering revealed 
+  associations between elevated climate conditions and mental health incidents. Supervised models 
+  with SHAP explanations highlighted key feature impacts across mental health categories and identified 
+  potential climate thresholds. These insights offer interpretable patterns that can inform early 
+  warning systems and public health strategies.
+
+keywords:
+  - Supervised Learning
+  - Unsupervised Learning
+  - Explainable AI
+  - Heath and Mental Health
+  - Climate and Health
+
+license: MIT  
+
+contact:
+  - name: John Atanbori
+    email: jatanbori@lincoln.ac.uk
+  - name: Harriet Moore
+    email: HaMoore@lincoln.ac.uk
