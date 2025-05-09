@@ -9,12 +9,10 @@ For clustering, we excluded the primary clinical impression field to treat all m
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/b888cdec-c6ce-4025-93f6-259d50b40c35" alt="feature_importance"></td>
-    <td><img src="https://github.com/user-attachments/assets/b45b4f6f-745d-4f51-aadf-0ed12806dc3f" alt="dependency_plots"></td>
+    <td><img src="https://github.com/user-attachments/assets/13307e7d-a3ad-4418-9945-2ff108e6ed96" alt="feature_importance"></td>
   </tr>
   <tr>
-    <td><b>Summer Season</b> (see explore_unsupervised_learning_summer.ipynb) </td>
-    <td><b>Spring and Summer Seasons</b> (see explore_unsupervised_learning_spring_summer.ipynb) </td>
+    <td>See the Jupyter notebooks "explore_unsupervised_learning_spring_summer.ipynb" and "explore_unsupervised_learning_summer.ipynb" for the "Spring and Summer" and "Summer" analyses respectively.) </td>
   </tr>
 </table>
 
