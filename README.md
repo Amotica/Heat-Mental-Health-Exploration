@@ -9,7 +9,7 @@ For clustering, we excluded the primary clinical impression field to treat all m
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/13307e7d-a3ad-4418-9945-2ff108e6ed96" alt="feature_importance"></td>
+    <td><img src="https://github.com/user-attachments/assets/2b2dd933-4988-4b71-8d30-e74c874bf244" alt="feature_importance"></td>
   </tr>
   <tr>
     <td>See the Jupyter notebooks "explore_unsupervised_learning_spring_summer.ipynb" and "explore_unsupervised_learning_summer.ipynb" for the "Spring and Summer" and "Summer" analyses respectively.) </td>
